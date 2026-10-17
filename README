@@ -1,0 +1,27 @@
+# Pycache Cleaner
+
+A lightweight, cross-platform Python utility script designed to recursively find and remove all `__pycache__` directories starting from the script's location.
+
+---
+
+## Features
+
+* **Recursive Cleanup**: Scans all subdirectories automatically.
+* **Safe Deletion**: Safely skips symbolic links and directory junctions to prevent unintended data loss.
+* **Detailed Feedback**: Reports the total number of deleted `__pycache__` directories and the target path upon completion.
+
+---
+
+## Requirements
+
+* **Python 3.x** (Standard library only; no external dependencies required).
+
+---
+
+## Usage
+
+1. Place the script inside the root folder (or any subdirectory) where you want to clean up cached Python files.
+2. Run the script using your terminal or command prompt:
+
+```bash
+python script_name.py
